@@ -1,0 +1,29 @@
+1. Implemente e teste um programa que leia 2 números inteiros e imprima o seu produto.
+2. Implemente e teste um programa que leia um número inteiro e imprima o seu antecessor e o seu
+sucessor.
+3. Implemente e teste um programa que leia 3 números inteiros e imprima a sua média aritmética.
+4. Modifique o programa anterior para imprimir a média aritmética com 3 casas decimais.
+5. Implemente e teste um programa que leia duas notas de um aluno, calcule e imprima sua média,
+sabendo que a primeira nota tem peso 3 e a segunda nota tem peso 7.
+6. Implemente e teste um programa que leia as coordenadas de dois pontos e calcule a distância entre
+eles, utilizando a função double sqrt(double x); da biblioteca padrão math.h. Lembre-se que a distância
+entre dois pontos é dada pela seguinte fórmula: = (2−1)2+ (2−1)2
+7. Implemente e teste um programa que leia um valor de despesa de restaurante, o valor da gorjeta
+(em porcentagem) e o número de pessoas para dividir a conta, e imprima o valor que cada um deve
+pagar. Assuma que a conta será dividida igualmente.
+8. Implemente e teste um programa que leia um valor em real e a cotação do dólar. Em seguida, imprima
+o valor correspondente em dólares.
+9. Leia o tamanho do lado de um quadrado e imprima como resultado a sua área.
+10. Uma empresa contrata um encanador a R$ 30,00 por dia. Faça um programa que solicite o número
+de dias trabalhados pelo encanador e imprima a quantia líquida que deverá ser paga, sabendo-se que
+são descontados 8% para imposto de renda.
+11. Faça um programa que leia um número inteiro positivo de três dígitos (de 100 a 999). Gere outro
+número formado pelos dígitos invertidos do número lido.
+12. Leia um número inteiro de 4 dígitos (de 1000 a 9999) e imprima 1 dígito por linha.
+13. Três amigos jogaram na loteria. Caso eles ganhem, o prêmio deve ser repartido proporcionalmente
+ao valor que cada deu para a realização da aposta. Faça um programa que leia quanto cada apostador
+investiu, o valor do prêmio, e imprima quanto cada um ganharia do prêmio com base no valor investido.
+14. Leia uma velocidade em m/s (metros por segundo) e apresente-a convertida em km/h (quilômetros
+por hora). A fórmula de conversão é: K = M*3.6, sendo K a velocidade em km/h e M em m/s.
+15. Leia um ângulo em graus e apresente-o convertido em radianos. A fórmula de conversão é:
+R = G *pi/180, sendo G o ângulo em graus e R em radianos e pi= 3,14159.
