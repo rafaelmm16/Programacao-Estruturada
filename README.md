@@ -2,6 +2,6 @@
 
 ![./down.png](test)
 
-Esse repositório serve para gurdar o conteúdo da linguagem C.
+Esse repositório serve para guardar o conteúdo da linguagem C.
 
 
