@@ -1,0 +1,20 @@
+
+senha: id_r
+
+git init //iniciar um repositório\
+git status //verificar status dos arquivos\
+git log //verificar historico\
+git add //adicionar arquivos\
+git commit //fazer o commit\
+git push //upload para o repositório\
+git diff HEAD~1 //mostra as mudanças no repositório\
+git clone <URL> //baixa um repositório já existente\
+git pull //baixa att novas no repositório
+git chekout ((<commit> <file>) = codigo) //permite ver como um arquivo ou todo o repositório estava em um determinado commit
+git checkout master // volta para o inicio da branching
+git checkout -- . //desfaz todas as alterações
+git checkout HEAD -- . // desfaz todas as alterações de arquivos já add
+git branch //lista a branch atual
+git branch <nova> // cria uma nova branch
+git branch -d <branch> // exclui uma branch
+git checkout <branch> //muda para a branch desejada
