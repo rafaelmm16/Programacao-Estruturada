@@ -1,0 +1,40 @@
+#include <stdio.h>\
+#include <stdlib.h> \
+\
+int main (void)\{ \
+int x, *px, **ppx; \
+float y, *py, **ppy; \
+x=10; \
+y=5.9; \
+px=&x; ppx=&px; \
+py=&y; ppy=&py; \
+\
+printf("\\nx= %d ",x);printf("\\nEndereco de x= %X ",&x);\
+printf("\\nValor do ponteiro px= %X ",px); \
+printf("\\nConteudo do ponteiro *px= %d ",*px); \
+printf("\\nEndereco de ppx= %X ", &ppx); \
+printf("\\nConteudo do ponteiro *ppx= %X ",*ppx);\
+printf("\\n**ppx= %d ",**ppx); \
+\}\
+\
+/*\
+x= 10\
+Endereco de x= D6CD761C\
+Valor do ponteiro px= D6CD761C\
+Conteudo do ponteiro *px= 10\
+Endereco de ppx= D6CD7608\
+Conteudo do ponteiro *ppx= D6CD761C\
+**ppx= 10\
+\
+//////////////////\
+\
+y= 5.900000\
+Endereco de y= ADF70E04\
+Valor do ponteiro py= ADF70E04\
+Conteudo do ponteiro *py= 5.900000\
+Endereco de ppy= ADF70DF0\
+Conteudo do ponteiro *ppy= ADF70E04\
+**ppy= 5.900000\
+*/\
+\
+}

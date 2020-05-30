@@ -1,0 +1,36 @@
+int var = 1;
+
+printf("%d", var);//imprime o conteúdo da variável var 
+printf("%d", &var);//imprime o endereço de var
+
+=========================
+
+int vetor[10]; //declarando um vetor com 10 espaços
+
+int *vetor;//declarando um ponteiro
+vetor =  (int *) malloc(sizeof(int)*10);//alocando o espaço de 10 inteiros para o ponteiro
+
+=========================
+
+int matriz[10][10];
+
+int matriz**;
+
+matriz = (int **)malloc(sizeof(int *)*10); //criou as linhas da matriz
+
+for(i=0;i<10;i++){
+    matriz[i] = (int *)malloc(10*sizeof(int));
+}
+
+funções:
+    -malloc = maloca o espaço na memória;
+    -calloc = maloca e zera o espaço na memória;
+    -realloc = aumenta/diminui um espaço já malocado;
+    -free = libera um espaço da memória (ex.: free(vetor) ).
+
+    malloc(tamanho);
+    calloc(num_elementos, tamanho);
+    realloc(destino, tamanho);
+    free(o_que_vai_morrer).
+
+

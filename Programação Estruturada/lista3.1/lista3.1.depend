@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1495719946 source:c:\users\rafel merlo mendes\downloads\programação estruturada\lista3.1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

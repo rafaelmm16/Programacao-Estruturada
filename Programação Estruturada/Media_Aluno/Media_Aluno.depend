@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1495123975 source:c:\users\rafel merlo mendes\downloads\programação estruturada\media_aluno\main.c
+	<stdio.h>
+	<string.h>
+	<locale.h>
+

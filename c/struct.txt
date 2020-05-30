@@ -1,0 +1,24 @@
+===SEM TYPEDEF===============
+struct aluno{
+    char nome[50];
+    int CR;
+}
+
+struct aluno joao;
+struct aluno sala[10];
+
+===COM TYPEDEF=================
+
+typedef struct{
+    char nome[50];
+    int CR;
+}aluno;
+
+//A DECLARAÇÃO VEM ANTES DA MAIN
+
+//aluno aluno1; // variável do tipo aluno
+aluno sala[10]; //vetor do tipo aluno
+
+scanf("%s", aluno1.nome)
+scanf("%f", aluno1.CR)
+
