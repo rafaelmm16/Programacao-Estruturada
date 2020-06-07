@@ -1,0 +1,179 @@
+1)
+inicio
+
+algoritmo Media_Alunos
+
+variaveis
+numeros_alunos, idades: real
+media, i: real
+
+numeros_alunos <-- 280;
+ 
+Para i de 1 ate numeros_alunos faça
+	escreva "Digite a idade:";
+	leia idades;
+	idades <-- idades + idades;
+fim para;
+
+media <-- idades/numeros_alunos;
+escreva("A media é:", media);
+
+fim
+	
+
+2)
+
+inicio
+
+algoritmo Nota
+
+variaveis
+numeros_alunos: inteiro
+media, i, p1, p2: real
+
+numeros_alunos <-- 66;
+ 
+Para i de 1 ate numeros_alunos faça
+	escreva "Digite a nota da p1:";
+	leia p1;
+	escreva "Digite a nota da p2:";
+	leia p2;
+
+	media <-- (p1+p2)/2;
+	se media >=7 entao
+		escreva("A media é:", media);
+		escreva("Aprovado");
+	se nao
+		escreva("A media é:", media);
+		escreva("Reprovado");
+
+fim para;
+
+fim
+
+3)
+
+inicio
+
+algoritmo Dados
+
+variaveis
+peso: real
+idade, telefone, cpf, rg: inteiro
+nome_usu, sexo, endereco, nome_mae, nome_pai, estado_civil: caractere
+ 
+escreva "Digite se nome:";
+leia nome_usu;
+escreva "Digite se peso:";
+leia peso;
+escreva "Digite sua idade:";
+leia idade;
+escreva "Digite seu telefone:";
+leia telefone;
+escreva "Digite seu CPF:";
+leia cpf;
+escreva "Digite seu RG:";
+leia rg;
+escreva "Digite seu sexo:";
+leia sexo;
+escreva "Digite seu endereco:";
+leia endereco;
+escreva "Digite o nome da sua mae:";
+leia nome_mae;
+escreva "Digite o nome do seu pai:";
+leia nome_pai;
+escreva "Digite seu estado civil:";
+leia estado civil;
+
+escreva "Nome:", nome_usu;
+escreva "Peso:", peso;
+escreva "Idade:", idade;
+escreva "Telefone:", telefone;
+escreva "CPF:", cpf;
+escreva "RG:", rg;
+escreva "Sexo:", sexo;
+escreva "Endereco:", endereco;
+escreva "Nome da sua mae:", nome_mae;
+escreva "Nome do seu pai:", nome_pai;
+escreva "Estado civil:", estado_civil;
+se idade <18 entao
+	escreva("Você não pode ser cadastrado!");
+fim se;
+
+fim
+
+4)
+
+5)
+
+inicio
+
+algoritmo Resultado
+
+variaveis
+num1, num3, num3, soma: reais
+
+ 
+faça enquanto soma <100
+	escreva "Digite o primeiro numero:";
+	leia num1;
+	escreva "Digite o segundo numero:";
+	leia num2;
+	escreva "Digite o terceiro numero:";
+	leia num3;
+
+	soma <-- num1+num2+num3;
+	se soma <100 então
+		escreva("resultado é menor que 100, tente outra vez");
+	se soma >100 então
+		escreva("Você foi desclassificado.");
+	se soma == 100 então
+		escreva("PARABÉNS, resultado igual a 100");
+	fim se
+
+fim faça enquanto
+
+fim
+
+6)
+
+inicio
+
+algoritmo Vetor_Matriz
+
+variaveis
+i,j,k:interios
+vetor[1..100]:reais
+matriz[1..4,1..4]:reais
+
+Para i de 1 ate 100 faça
+	escreva("Preencha so com numeros reais:");
+	leia(vetor[i]);
+	escreva("Vetor:" vetor[i]);
+fim para
+
+Para j de 1 ate 4 faça
+	Para k de 1 ate 4 faça
+	escreva("Preencha so com numeros reais:");
+	leia(vetor[j,k]);
+	escreva("Matriz:" vetor[j.k]);
+	fim para
+fim para
+
+7)
+
+Linguagem de Porgramação é um conjunto de codigos/instruções que fazem determinda tarefa, seja ela em um programa, maquina, site etc.
+A importancia é o aprendizado em logica funcional, resolução de problemas e como resolver dificuldades em diversas cituações, trazendo um aproveitamento profissional.
+Eu utilizo de sistemas o windows e o android, em aplicações eu costumo acessar o youtube e netflix, com toda a certeza que a elaboração desses projetos ajudaram muitas pessoas em seus proprios projetos, desenvolvendo novas formas de streams e a criação de novos softwares.
+
+8)
+
+Resposta: d
+
+9)
+
+resposta: e
+
+10)
+
+resposta: b

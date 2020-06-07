@@ -1,0 +1,239 @@
+1)
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	
+	float num_alunos, media;
+	int idade, i;
+
+	num_alunos=280;
+
+	for(i=0;i<num_alunos;i++){
+	printf("Digite a idade: ");
+	scanf("%d", &idade);
+
+	idade+=idade;
+	}
+media= idade/num_alunos;
+printf("A media é: %f", media);
+
+return 0;
+
+}
+
+2)
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+int num_alunos;
+float media, i, p1, p2;
+
+num_alunos = 66;
+
+for(i=0;i<num_alunos; i++){
+printf("Digite a nota da p1:");
+scanf("%f", &p1);
+printf("Digite a nota da p2:");
+scanf("%f", &p2);
+
+media = (p1+p2)/2;
+if(media >= 7){
+	printf("A media é: %f", media);
+	printf("Aprovado");
+}else
+printf("A media é: %f", media);
+printf("Reprovado");
+}
+
+return 0;
+
+}
+
+3)
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	
+int idade, telefone, cpf, rg;
+float peso;
+char nome_usu[32], sexo[16], endereco[32], nome_mae[32], nome_pai[32], estado_civil[32];
+
+printf("Digite se nome:");
+scanf("%s", &nome_usu);
+printf("Digite se peso:");
+scanf("%f",&peso);
+printf("Digite sua idade:");
+scanf("%d",&idade);
+printf("Digite seu telefone:");
+scanf("%d",&telefone);
+printf"("Digite seu CPF:");
+scanf("%d",&cpf);
+printf("Digite seu RG:");
+scanf("%d",&rg);
+printf"Digite seu sexo:";
+scanf("%s",&sexo);
+printf("Digite seu endereco:");
+scanf("%s",&endereco);
+printf("Digite o nome da sua mae:");
+scanf("%s",&nome_mae);
+printf("Digite o nome do seu pai:");
+scanf("%s",&nome_pai);
+printf("Digite seu estado civil:");
+scanf("%s",&estado civil);
+
+printf("Nome: %s"), nome_usu;
+printf("Peso: %f"), peso;
+printf("Idade: %d"), idade;
+printf("Telefone: %d"), telefone;
+printf("CPF: %d"), cpf;
+printf("RG: %d"), rg;
+printf("Sexo: %s"), sexo;
+printf("Endereco: %s"), endereco;
+printf("Nome da sua mae: %s"), nome_mae;
+printf("Nome do seu pai: %s"), nome_pai;
+printf("Estado civil: %s"), estado_civil;
+
+if(idade < 18)
+	printf("Você não pode ser cadastrado!");
+
+return 0;
+
+}
+
+4)
+	a)
+
+#include <stdio.h>
+#include <stdlib.h>
+
+//O programa ira fazer a escolha de um pokemon inicial
+
+int main(){
+	
+int escolha;
+
+printf("Escolha seu Pokemon:\n");
+printf("1- Charmander\n2- Squirtle\n3- Bulbasaur\n:");
+scanf("%d", &escolha);
+
+if(escolha==1){
+	printf("Seu pokemon e Charmander.\n");
+}else
+if(escolha==2){
+	printf("Seu pokemon e Squirtle.\n");
+}else
+if(escolha3){
+	printf("Seu pokemon e Bulbasaur")
+}
+
+	return 0;
+}
+
+4)
+	b)
+
+	#include <stdio.h>
+#include <stdlib.h>
+
+//O programa ira perguntar se vc pode jogar online
+
+int main(){
+	
+int escolha;
+
+for{
+	printf("Voce tem acesso a internet?\n");
+	printf("1-sim\n2-nao\n");
+	scanf("%d", &escolha);
+
+	printf("Agora voce pode jogar LoL\n");
+
+}while(escolha == 2);
+
+	return 0;
+}
+
+
+5)
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	
+float num1, num2, num3, soma;
+
+do{
+	printf("Digite o primeiro numero:");
+	scanf("%f",&num1);
+	printf("Digite o segundo numero:");
+	scanf("%f",&num2);
+	printf("Digite o terceiro numero:");
+	scanf("%f",&num3);
+
+	soma = num1+num2+num3;
+
+	if(soma < 100){
+		printf("resultado é menor que 100, tente outra vez");
+	}else
+	if(soma > 100){
+		printf("Você foi desclassificado.")
+	}else
+	if(soma == 100){
+		printf("PARABÉNS, resultado igual a 100")
+	}
+}while(soma<100);
+
+return 0;
+}
+
+6)
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	
+	int i,j,k;
+	float vetor[100], matriz[4][4];
+
+	for(i=0;i<100;i++){
+		printf("Preencha so com numeros reais:");
+		scanf("%f", vetor[i]);
+
+		printf("Vetor %f %f", vetor[i]:i)
+	}
+	for(j=0;j<4;j++){
+		for(k=0;k<4;k++){
+		printf("Preencha so com numeros reais:");
+		scanf("%f", vetor[j][k]);
+
+		printf("Vetor %f %f", vetor[j][k]:j k)
+		}
+	}
+
+	return 0;
+}
+
+7)
+
+Linguagem de Porgramação é um conjunto de codigos/instruções que fazem determinda tarefa, seja ela em um programa, maquina, site etc.
+A importancia é o aprendizado em logica funcional, resolução de problemas e como resolver dificuldades em diversas cituações, trazendo um aproveitamento profissional.
+Eu utilizo de sistemas o windows e o android, em aplicações eu costumo acessar o youtube e netflix, com toda a certeza que a elaboração desses projetos ajudaram muitas pessoas em seus proprios projetos, desenvolvendo novas formas de streams e a criação de novos softwares.
+
+8)
+
+Resposta: d
+
+9)
+
+resposta: e
+
+10)
+
+resposta: b
