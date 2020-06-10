@@ -6,22 +6,24 @@
 //  Copyright © 2020 Rafael. All rights reserved.
 //
 
-//test
-
+//Bibliotecas usadas na aplicação
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <locale.h>
 
+//Estrutura para demonstrar a exibição da mesma
 typedef struct estrutura{
     int a;
     float b;
     char c;
 }estruturaop;
 
+//As fun, fun2, fun3, servem para demonstar o proprosito de tipos diferentes de funções
 void fun(){
     printf("\nEssa é uma função void.\n");
 }
+
 int fun2(){
     int a,b,c;
     a=2;
@@ -31,6 +33,7 @@ int fun2(){
     printf("\nEssa é uma função com retorno.\n");
     return c;
 }
+
 int fun3(int a, int b, int c){
     c=a+b;
     printf("\n%d\n", c);
@@ -38,20 +41,27 @@ int fun3(int a, int b, int c){
     return c;
 }
 
+//Função principal
 int main() {
     
+    //Variaveis
     int op = 0;
     estruturaop estrutura;
     
+    //Comando usado para acentuação, utf-8 
     setlocale(LC_ALL, NULL);
     
+    //Loop externo para execução continua
     do {
+        //Menu principal
         printf("*********************************");
         printf("\nOpções:\n\n 1: if/else \n 2: Repetição \n 3: Struct \n 4: Vetor \n 5: Matriz \n 6: Ponteiro \n 7: Função \n 8: Sair \n\n");
         printf("*********************************\n");
         scanf("%d", &op);
         
+        //Usado para a execução do menu
         switch (op) {
+            //Os casos são todo referentes ao menu de opções
             case 1:
                 system("clear||cls");
                 printf("\nIf(se) o primeiro número for maior que o segundo número, ele será mostrado.\n");
@@ -256,12 +266,13 @@ int main() {
                 printf("\n\n");
                 
                 break;
-                
+            
+            //Caso padrão do switch, caso a opção seja diferente das apresentadas
             default:
                 break;
         }
+    //Condição do loop para a execução do programa
     }while(op<8);
     
     return 0;
 }
-
