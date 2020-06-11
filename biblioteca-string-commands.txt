@@ -1,0 +1,64 @@
+!_! Copiar strings em C usando strcpy e strncpy; !_!
+!_! Concatenar strings em linguagem C usando strcat e strncat; !_!
+!_! Descobrir o tamanho de uma string em C usando strlen(); !_!
+!_! Comparar strings em C usando strcmp(); !_!
+
+:::Função::: 
+strcpy(string_destino, string_origem);
+
+-Realiza a cópia do conteúdo de uma variável a outra.
+
+:::Função::: 
+strncpy(string_destino, string_origem, tamanho);
+
+-Realiza a cópia do conteúdo de uma variável a outra, porém,
+deve ser especificado o tamanho a ser copiado.
+
+:::Função:::
+strcat(string_destino, string_origem);
+
+-Realiza a concatenação do conteúdo de uma variável a outra.
+Ambas devem ser strings.
+
+:::Função:::
+strncat(string_destino, string_origem, tamanho);
+
+-Realiza a concatenação do conteúdo de uma variável a outra,
+porém, deve ser especificado o tamanho a ser concatenado.
+Ambas devem ser strings.
+
+:::Função:::
+variável do tipo inteiro = strlen(string);
+
+-Determina o tamanho de uma string.
+
+:::Função:::
+variável do tipo inteiro = strcmp(string1, string2);
+
+-Compara o conteúdo de duas strings;
+
+/*
+Possíveis valores de retorno:
+
+0: conteúdo das strings são iguais
+
+< 0: conteúdo da string1 é menor do que string2
+
+> 0: conteúdo da string1 é maior do que string2
+*/
+
+
+:::Função:::
+variável do tipo inteiro = strncmp(string1, string2, tamanho);
+
+-Também faz a comparação do conteúdo de duas strings, porém, deve ser especificado o tamanho a ser comparado;
+
+/*
+Possíveis valores de retorno:
+
+0: conteúdo das strings são iguais
+
+< 0: conteúdo da string1 é menor do que string2
+
+> 0: conteúdo da string1 é maior do que string2
+*/
