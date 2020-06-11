@@ -7,6 +7,7 @@
 strcpy(string_destino, string_origem);
 
 -Realiza a cópia do conteúdo de uma variável a outra.
+-Ex: strcpy( linguagem, "linguagem C");
 
 :::Função::: 
 strncpy(string_destino, string_origem, tamanho);
