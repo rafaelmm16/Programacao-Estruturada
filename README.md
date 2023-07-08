@@ -1,5 +1,5 @@
-# Conteúdo C
+# Programação Estruturada
 
-![Test](down.png)
+### 📦
 
-Esse repositório serve para guardar o conteúdo da linguagem C.
+Repositório para guardar o conteúdo da disciplina de Programação Estruturada feita em linguagem C.
